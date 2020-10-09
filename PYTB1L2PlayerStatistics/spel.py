@@ -1,20 +1,52 @@
-a = "Sam Wels"
-print("Name: " + a)
-b = "300"
-print("Strength: " + b)
+import random
+
+
+
+name = "Sam Wels"
+
+print("Name: " + name)
+print("-----")
+
+print ("Strength:")
+print(random.randrange(100, 300))
+print("-----")
+
 c = "99"
-print("Lives left: " + c)
+print("Lives left: ")
+print(c)
+print("-----")
+
 d = "300"
-print("Speed " + d)
+print("Speed: ") 
+print(d)
+print("-----")
+
 e = "395"
-print("Points: " + e)
+print("Points: ")
+print(e)
+print("-----")
+
 f = "Smash"
-print("Power: " + f)
+print("Power: ")
+print(f)
+print("-----")
+
 g = "10000"
-print("Sneak: " + g)
+print("Sneak: ")
+print(g)
+print("-----")
+
 h = "6 left"
-print("Team: " + h)
+print("Team: ")
+print(h)
+print("-----")
+
 i = "16"
-print("Age: " + i)
-j = "false"
-print("Wanted: " + j)
+print("Age: ")
+print(i)
+print("-----")
+
+if c > e:
+  print("Not Wanted")
+else:
+  print("Wanted")
