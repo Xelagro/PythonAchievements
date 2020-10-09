@@ -11,17 +11,17 @@ print ("Strength:")
 print(random.randrange(100, 300))
 print("-----")
 
-c = "99"
+c = 99
 print("Lives left: ")
 print(c)
 print("-----")
 
-d = "300"
+d = 300
 print("Speed: ") 
 print(d)
 print("-----")
 
-e = "395"
+e = 395
 print("Points: ")
 print(e)
 print("-----")
@@ -31,7 +31,7 @@ print("Power: ")
 print(f)
 print("-----")
 
-g = "10000"
+g = 10000
 print("Sneak: ")
 print(g)
 print("-----")
@@ -41,7 +41,7 @@ print("Team: ")
 print(h)
 print("-----")
 
-i = "16"
+i = 16
 print("Age: ")
 print(i)
 print("-----")
