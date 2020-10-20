@@ -9,3 +9,5 @@ for x in people:
         break
 print("Waldo zit op stoel nummer", stoel + 1)
 #Er is geen stoel nummer 0
+
+print(people)
